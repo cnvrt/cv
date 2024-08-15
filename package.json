@@ -1,0 +1,26 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnvrt/cv.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Sandeep Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnvrt/cv/issues"
+  },
+  "homepage": "https://github.com/cnvrt/cv#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
