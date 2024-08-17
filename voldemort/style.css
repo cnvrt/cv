@@ -1,0 +1,26 @@
+/* CSS */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  /*color: white; */
+  color: #fabd49;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  font-size: 6rem;
+}
+
+#animation-container {
+  display: grid;
+}
+
+.char {
+  position: absolute;
+  opacity: 0;
+  transform: translateY(0);
+  transition: all 7s ease-in-out;
+  text-shadow: 4px 4px 4px #d53d3d;
+}
