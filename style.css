@@ -273,10 +273,10 @@ section{
         width: 60%;
         height: 6vh;
     }
-    .content .typewriter{
-        font-size: clamp(1rem, 0.5rem + 5vw, 2.5rem);
-    }
     .content h1{
-        font-size: clamp(1rem, 0.5rem + 5vw, 1.8rem);
+        font-size: clamp(1rem, 0.6rem + 5vw, 1.8rem);
+    }
+    .content .typewriter{
+        font-size: clamp(1rem, 0.7rem + 5vw, 2.5rem);
     }
 }
