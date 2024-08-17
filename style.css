@@ -267,7 +267,7 @@ section{
         height: 2.5rem;
         margin: 0 10px;
     }
-    .content{height: 50%;}
+    .content{height: 55%;}
     .content button{
         margin: 10px;
         width: 60%;
@@ -277,6 +277,6 @@ section{
         font-size: clamp(1rem, 0.6rem + 5vw, 1.8rem);
     }
     .content .typewriter{
-        font-size: clamp(1rem, 0.7rem + 5vw, 2.5rem);
+        font-size: clamp(1rem, 0.8rem + 5vw, 2.5rem);
     }
 }
