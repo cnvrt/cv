@@ -24,3 +24,12 @@ body {
   transition: all 7s ease-in-out;
   text-shadow: 4px 4px 4px #d53d3d;
 }
+
+
+
+.fire{
+  height: 100vh;
+  /* width: 100%;
+  text-align: center; */
+  filter: url(#flame);
+}
