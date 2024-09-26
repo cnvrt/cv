@@ -47,14 +47,3 @@ function eraseText() {
 }
 
 window.onload = typeWriter;
-
-const uName = [
-    "Sandeep",
-    "Kumar"
-];
-
-const logo = document.querySelector(".logo");
-const iam = document.querySelector(".content>h1>span");
-
-logo.innerHTML = uName[0]+" <span>"+uName[1]+"</span>";
-iam.innerHTML = uName[0];

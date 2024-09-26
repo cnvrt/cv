@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../style.css">
+    <title>Skills</title>
+</head> 
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Sandeep <span>Kumar</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="../">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="service.html">Service</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="contact.html">Contact</a></div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="../">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="service.html">Service</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="content">
+                <h1  data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Sandeep</span></h1>
+                <h1 data-aos="fade-right" data-aos-duration="1500">My Skills</h1>
+                <ul data-aos="fade-left" data-aos-duration="1500">
+                    <li><strong>Programming Languages:</strong> JavaScript, PHP, Python, Java, C++</li>
+                    <li><strong>Frameworks:</strong> Node.js, NextJS, VueJS, Express.js, React.js, Django, Laravel</li>
+                    <li><strong>Database Management:</strong> MySQL, PostgreSQL, MongoDB</li>
+                    <li><strong>Version Control:</strong> Git, GitHub, Bitbucket</li>
+                    <li><strong>DevOps Tools:</strong> Docker, Jenkins, Kubernetes</li>
+                    <li><strong>Cloud Services:</strong> AWS, Azure, Heroku</li>
+                    <li><strong>Web Development:</strong> HTML5, CSS3, JavaScript (ES6+), Responsive Design</li>
+                </ul>
+                <p data-aos="flip-right" data-aos-duration="1500">
+                    I am continuously refining these skills and learning new technologies to keep up with industry trends and provide the best possible solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0,});
+    </script>
+</body>
+</html>
